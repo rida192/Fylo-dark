@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: hsl(218 28% 13%);
+}
+
+footer .social-icons div {
+  @apply p-[7px] border border-white rounded-full duration-200 cursor-pointer;
+}
+footer .social-icons div:nth-of-type(1):hover svg path {
+  fill: #1877f2;
+}
+footer .social-icons div:nth-of-type(1):hover {
+  @apply border-[#1877f2];
+}
+
+footer .social-icons div:nth-of-type(2):hover svg path {
+  fill: #1da1f2;
+}
+footer .social-icons div:nth-of-type(2):hover {
+  @apply border-[#1da1f2];
+}
+footer .social-icons div:nth-of-type(3):hover svg path {
+  fill: #c13584;
+}
+footer .social-icons div:nth-of-type(3):hover {
+  @apply border-[#c13584];
+}
+footer svg path {
+  fill: white;
+}
+footer svg path {
+  @apply transition-all duration-200;
+}
