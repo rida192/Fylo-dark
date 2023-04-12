@@ -67,7 +67,7 @@
       </form>
       <p
         id="error"
-        class="text-red-500 text-xs font-bold absolute bottom-[40px] md:bottom-[30px] left-1/2 md:translate-x-0 -translate-x-1/2 md:left-[150px]"
+        class="text-red-500 text-xs font-bold absolute bottom-[17px] md:bottom-[30px] left-1/2 md:translate-x-0 -translate-x-1/2 md:left-[150px]"
         v-show="!isValid"
       >
         Please enter a valid email address
