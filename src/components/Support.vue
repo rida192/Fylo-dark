@@ -65,7 +65,11 @@
         <input type="text" class="flex-1 rounded-3xl indent-5 py-[13px] text-black outline-none" placeholder="email@example.com" v-model="email" />
         <button class="bg-gradient-to-r from-Cyan to-Blue py-[14px] px-[30px] rounded-3xl hover:to-Cyan font-raleway font-bold">Get Started For Free</button>
       </form>
-      <p id="error" class="text-red-500 text-xs font-bold absolute bottom-[30px] left-1/2 md:translate-x-0 -translate-x-1/2 md:left-[150px]" v-show="!isValid">
+      <p
+        id="error"
+        class="text-red-500 text-xs font-bold absolute bottom-[40px] md:bottom-[30px] left-1/2 md:translate-x-0 -translate-x-1/2 md:left-[150px]"
+        v-show="!isValid"
+      >
         Please enter a valid email address
       </p>
     </div>
